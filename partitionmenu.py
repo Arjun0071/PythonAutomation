@@ -26,7 +26,7 @@ while True:
     if int(ch) == 1:
         partname = input("Enter your Partition path : ")
         print(partname)
-        os.system(" fdisk {}".format(partname)
+        os.system(" fdisk {}".format(partname))
     elif int(ch) == 2:
 
         drive = input("enter your drive path: ")
